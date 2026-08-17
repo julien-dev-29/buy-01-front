@@ -1,4 +1,3 @@
-import { describe, expect, it } from 'vitest';
 import { ALLOWED_MEDIA_TYPES, MAX_MEDIA_SIZE_BYTES, validateMediaFile } from './media.validators';
 
 describe('validateMediaFile', () => {

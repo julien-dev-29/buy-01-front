@@ -1,0 +1,18 @@
+<mat-grid-list cols="2" rowHeight="">
+    @for (item of products(); track $index) {
+    <mat-grid-tile>
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>
+                    {{item.name}}
+                </mat-card-title>
+            </mat-card-header>
+            <img mat-card-md-image [src]="item.mediasId">
+            <mat-card-content>
+                {{ item.description}}
+            </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+    }
+</mat-grid-list>
+<button matButton="outlined" (click)="openSnackBar('Yolo les kikis!', '')">Show snack-bar</button>
