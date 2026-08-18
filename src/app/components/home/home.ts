@@ -18,8 +18,6 @@ export class HomeComponent {
     .get<Product[]>('http://localhost:9000/api/products')
     .subscribe((res) => this.products.set(res));
   openSnackBar(message: string, action: string) {
-    this._snackBar.open(message, action, {
-      duration: 2000
-    });
+    this._snackBar.open(message, action);
   }
 }
