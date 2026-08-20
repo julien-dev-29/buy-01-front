@@ -1,0 +1,18 @@
+<h2 mat-dialog-title>Create a product</h2>
+<mat-dialog-content>
+    <form (submit)="onSubmit($event)" class="flex flex-col gap-4 pt-2">
+        <mat-form-field appearance="outline">
+            <mat-label>Name</mat-label>
+            <input matInput [formField]="form.name" />
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Description</mat-label>
+            <textarea matInput rows="3" [formField]="form.description"></textarea>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Prix (EUR)</mat-label>
+            <input matInput type="number" [formField]="form.price" />
+        </mat-form-field>
+        <button matButton="filled" type="submit">Create</button>
+    </form>
+</mat-dialog-content>
