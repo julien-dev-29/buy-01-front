@@ -1,4 +1,7 @@
 <h2 mat-dialog-title>Create a product</h2>
+<p>
+    {{errorMessage()}}
+</p>
 <mat-dialog-content>
     <form (submit)="onSubmit($event)" class="flex flex-col gap-4 pt-2">
         <mat-form-field appearance="outline">

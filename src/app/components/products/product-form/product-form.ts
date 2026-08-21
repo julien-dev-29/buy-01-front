@@ -7,6 +7,8 @@ import { MatDialogContent, MatDialogTitle } from '@angular/material/dialog';
 import { MatError, MatFormField, MatFormFieldModule, MatLabel } from '@angular/material/form-field';
 import { MatInput } from '@angular/material/input';
 import { ProductPayload } from '../../../core/models/product.model';
+import { ProductService } from '../../../core/services/product.service';
+import { Router } from '@angular/router';
 
 type ProductFormData = {
   name: string;
@@ -31,7 +33,9 @@ type ProductFormData = {
   ],
 })
 export class ProductForm {
-  private readonly http = inject(HttpClient);
+  private readonly router = inject(Router);
+  private readonly productService = inject(ProductService);
+  protected errorMessage = signal<string>('Wesh');
   protected productFormModel = signal<ProductFormData>({
     name: '',
     description: '',
@@ -42,10 +46,9 @@ export class ProductForm {
 
   onSubmit(event: Event) {
     event.preventDefault();
-    const response = this.http
-      .post<ProductPayload>('http://localhost:9000/api/products', this.productFormModel())
-      .subscribe();
-    const credentials = this.productFormModel();
-    console.log('Logging in with:', credentials);
+    console.log('yala');
+    this.productService
+      .create(this.productFormModel())
+      .subscribe((res) => res.id ?? this.errorMessage.set('Error wala'));
   }
 }
