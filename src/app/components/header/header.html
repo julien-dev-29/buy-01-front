@@ -2,14 +2,16 @@
   <button matIconButton class="example-icon" aria-label="Example icon-button with menu icon">
     <mat-icon>menu</mat-icon>
   </button>
-  <span>Buy It</span>
+  <a href="/">
+    <span>Buy It</span>
+  </a>
   <span class="example-spacer"></span>
+  <a routerLink="/my-products" class="mr-3 hover:text-cyan-600 transition-all duration-300">My Products</a>
+  <a routerLink="/product-create" class="mr-3 hover:text-cyan-600 transition-all duration-300">Create a product</a>
   <button matIconButton class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
     <mat-icon>favorite</mat-icon>
   </button>
   <button matIconButton class="example-icon" aria-label="Example icon-button with share icon">
     <mat-icon>share</mat-icon>
   </button>
-  <a routerLink="/my-products">My Products</a>
-  <a routerLink="/product-create">Create a product</a>
 </mat-toolbar>

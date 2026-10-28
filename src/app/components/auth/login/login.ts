@@ -7,7 +7,6 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatAnchor } from '@angular/material/button';
 import { LoginRequest } from '../../../core/models/auth.model';
 import { form, FormField } from '@angular/forms/signals';
-import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-login',

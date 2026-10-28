@@ -12,5 +12,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 export class MyProductsComponent {
   private readonly http = inject(HttpClient);
   protected readonly products = signal<ProductPayload[]>([]);
-  private response = this.http.get<ProductPayload[]>('http://localhost:9000/api/products/me');
+  private response = this.http
+    .get<ProductPayload[]>('http://localhost:9000/api/products/me')
+    .subscribe((res) => this.products.set(res));
 }

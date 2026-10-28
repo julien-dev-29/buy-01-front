@@ -1,6 +1,4 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, inject } from '@angular/core';
-import { ProductPayload } from '../../../core/models/product.model';
+import { Component } from '@angular/core';
 import { ProductForm } from '../product-form/product-form';
 
 @Component({
