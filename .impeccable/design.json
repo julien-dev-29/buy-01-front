@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T08:51:03Z",
+  "title": "Design System: Buy-01",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Electric Cyan",
+        "canonical": "#00dddd",
+        "tonalRamp": ["#002020", "#003737", "#004f4f", "#006a6a", "#008585", "#00a1a1", "#00bebe", "#00dddd"]
+      },
+      "on-primary": {
+        "role": "on-primary",
+        "displayName": "Deep Cyan Ink",
+        "canonical": "#003737",
+        "tonalRamp": ["#002020", "#003737", "#004f4f", "#006a6a", "#008585", "#00a1a1", "#00bebe", "#00dddd"]
+      },
+      "primary-container": {
+        "role": "primary-container",
+        "displayName": "Tidepool",
+        "canonical": "#004f4f",
+        "tonalRamp": ["#002020", "#003737", "#004f4f", "#006a6a", "#008585", "#00a1a1", "#00bebe", "#00dddd"]
+      },
+      "secondary": {
+        "role": "secondary",
+        "displayName": "Sea-Glass Teal",
+        "canonical": "#b0cccb",
+        "tonalRamp": ["#051f1f", "#1b3534", "#324b4b", "#4a6363", "#627c7b", "#7b9695", "#95b0b0", "#b0cccb"]
+      },
+      "tertiary": {
+        "role": "tertiary",
+        "displayName": "Ember",
+        "canonical": "#ffb787",
+        "tonalRamp": ["#311300", "#502400", "#723600", "#964900", "#bc5d00", "#e37100", "#ff8e36", "#ffb787"]
+      },
+      "on-tertiary": {
+        "role": "on-tertiary",
+        "displayName": "Burnt Ember Ink",
+        "canonical": "#502400",
+        "tonalRamp": ["#311300", "#502400", "#723600", "#964900", "#bc5d00", "#e37100", "#ff8e36", "#ffb787"]
+      },
+      "tertiary-container": {
+        "role": "tertiary-container",
+        "displayName": "Ember Clay",
+        "canonical": "#723600",
+        "tonalRamp": ["#311300", "#502400", "#723600", "#964900", "#bc5d00", "#e37100", "#ff8e36", "#ffb787"]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Gallery Black",
+        "canonical": "#101414",
+        "tonalRamp": ["#191c1c", "#2d3131", "#444747", "#5b5f5f", "#747877", "#8e9191", "#a9acab", "#c4c7c6"]
+      },
+      "surface-container-low": {
+        "role": "neutral",
+        "displayName": "Card Charcoal",
+        "canonical": "#191c1c",
+        "tonalRamp": ["#191c1c", "#2d3131", "#444747", "#5b5f5f", "#747877", "#8e9191", "#a9acab", "#c4c7c6"]
+      },
+      "surface-container-high": {
+        "role": "neutral",
+        "displayName": "Dialog Charcoal",
+        "canonical": "#272b2a",
+        "tonalRamp": ["#191c1c", "#2d3131", "#444747", "#5b5f5f", "#747877", "#8e9191", "#a9acab", "#c4c7c6"]
+      },
+      "on-surface": {
+        "role": "neutral",
+        "displayName": "Bone White",
+        "canonical": "#e0e3e2",
+        "tonalRamp": ["#191c1c", "#2d3131", "#444747", "#5b5f5f", "#747877", "#8e9191", "#a9acab", "#c4c7c6"]
+      },
+      "on-surface-variant": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "#dae5e4",
+        "tonalRamp": ["#141d1d", "#293232", "#3f4948", "#566060", "#6f7979", "#889392", "#a3adad", "#bec9c8"]
+      },
+      "outline": {
+        "role": "neutral",
+        "displayName": "Harbor Outline",
+        "canonical": "#889392",
+        "tonalRamp": ["#141d1d", "#293232", "#3f4948", "#566060", "#6f7979", "#889392", "#a3adad", "#bec9c8"]
+      },
+      "outline-variant": {
+        "role": "neutral",
+        "displayName": "Faint Harbor",
+        "canonical": "#3f4948",
+        "tonalRamp": ["#141d1d", "#293232", "#3f4948", "#566060", "#6f7979", "#889392", "#a3adad", "#bec9c8"]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Soft Coral",
+        "canonical": "#ffb4ab",
+        "tonalRamp": ["#410002", "#690005", "#93000a", "#ba1a1a", "#de3730", "#ff5449", "#ff897d", "#ffb4ab"]
+      },
+      "on-error": {
+        "role": "error",
+        "displayName": "Deep Coral Ink",
+        "canonical": "#690005",
+        "tonalRamp": ["#410002", "#690005", "#93000a", "#ba1a1a", "#de3730", "#ff5449", "#ff897d", "#ffb4ab"]
+      },
+      "accent-cyan": {
+        "role": "primary",
+        "displayName": "Legacy Signal Teal",
+        "canonical": "oklch(60.9% 0.126 221.723)",
+        "tonalRamp": ["oklch(30.2% 0.056 229.695)", "oklch(39.8% 0.07 227.392)", "oklch(45% 0.085 224.283)", "oklch(52% 0.105 223.128)", "oklch(60.9% 0.126 221.723)", "oklch(71.5% 0.143 215.221)", "oklch(86.5% 0.127 207.078)", "oklch(95.6% 0.045 203.388)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Marketing-scale statements and large numbers; not used on current app screens." },
+      "headline": { "displayName": "Headline", "purpose": "Page and section titles." },
+      "title": { "displayName": "Title", "purpose": "Product card titles and the toolbar wordmark." },
+      "body": { "displayName": "Body", "purpose": "Default UI text, card descriptions, and supporting copy." },
+      "label": { "displayName": "Label", "purpose": "Buttons, navigation actions, and compact labels." }
+    },
+    "shadows": [
+      { "name": "level0", "value": "none", "purpose": "Toolbar, fields, flat surfaces, and outlined cards." },
+      { "name": "level1", "value": "0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12)", "purpose": "Raised product cards." },
+      { "name": "level3", "value": "0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12)", "purpose": "Menus, dialogs, and floating panels." }
+    ],
+    "motion": [
+      { "name": "duration-short4", "value": "200ms", "purpose": "Default hover and focus transition." },
+      { "name": "duration-medium2", "value": "300ms", "purpose": "Navigation color transitions." },
+      { "name": "easing-standard", "value": "cubic-bezier(0.2, 0, 0, 1)", "purpose": "Default easing for state transitions." }
+    ],
+    "breakpoints": [
+      { "name": "compact", "value": "0-599px" },
+      { "name": "medium", "value": "600-839px" },
+      { "name": "expanded", "value": "840-1199px" },
+      { "name": "large", "value": "1200-1599px" },
+      { "name": "extra-large", "value": "1600px+" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Filled Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single filled action; full pill, 40px tall, cyan with deep cyan ink.",
+      "html": "<button class='ds-btn-primary' type='button'>Ajouter un produit</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; height: 40px; padding: 0 24px; border: 0; border-radius: 9999px; background: var(--mat-sys-primary, #00dddd); color: var(--mat-sys-on-primary, #003737); font-family: Roboto, sans-serif; font-size: 0.875rem; line-height: 1.25rem; font-weight: 500; letter-spacing: 0.006rem; cursor: pointer; transition: background-color 200ms cubic-bezier(0.2, 0, 0, 1), box-shadow 200ms cubic-bezier(0.2, 0, 0, 1); } .ds-btn-primary:hover { background: color-mix(in srgb, var(--mat-sys-primary, #00dddd) 92%, var(--mat-sys-on-primary, #003737)); } .ds-btn-primary:active { background: color-mix(in srgb, var(--mat-sys-primary, #00dddd) 88%, var(--mat-sys-on-primary, #003737)); } .ds-btn-primary:focus-visible { outline: 2px solid var(--mat-sys-on-primary, #003737); outline-offset: 2px; } .ds-btn-primary:disabled { background: color-mix(in srgb, var(--mat-sys-on-surface, #e0e3e2) 12%, transparent); color: color-mix(in srgb, var(--mat-sys-on-surface, #e0e3e2) 38%, transparent); cursor: not-allowed; }"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "A 40px circular toolbar action in mist with a state-layer hover.",
+      "html": "<button class='ds-btn-icon' type='button' aria-label='Ouvrir le menu'><svg width='24' height='24' viewBox='0 0 24 24' fill='currentColor' aria-hidden='true'><path d='M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z'/></svg></button>",
+      "css": ".ds-btn-icon { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; padding: 0; border: 0; border-radius: 9999px; background: transparent; color: var(--mat-sys-on-surface-variant, #dae5e4); cursor: pointer; transition: background-color 200ms cubic-bezier(0.2, 0, 0, 1); } .ds-btn-icon:hover { background: color-mix(in srgb, var(--mat-sys-on-surface, #e0e3e2) 8%, transparent); } .ds-btn-icon:focus-visible { outline: 2px solid var(--mat-sys-primary, #00dddd); outline-offset: 2px; }"
+    },
+    {
+      "name": "Outlined Text Field",
+      "kind": "input",
+      "refersTo": "field-outlined",
+      "description": "The canonical field: 56px tall, 4px radius, 1px harbor outline, cyan focus.",
+      "html": "<label class='ds-field'><span class='ds-field__label'>Email</span><input class='ds-field__input' type='email' placeholder='vous@exemple.fr' /></label>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 4px; font-family: Roboto, sans-serif; } .ds-field__label { font-size: 0.75rem; line-height: 1rem; letter-spacing: 0.031rem; color: var(--mat-sys-on-surface-variant, #dae5e4); } .ds-field__input { box-sizing: border-box; width: 100%; height: 56px; padding: 0 16px; border: 1px solid var(--mat-sys-outline, #889392); border-radius: 4px; background: transparent; color: var(--mat-sys-on-surface, #e0e3e2); font-family: Roboto, sans-serif; font-size: 1rem; line-height: 1.5rem; letter-spacing: 0.031rem; transition: border-color 150ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-field__input::placeholder { color: color-mix(in srgb, var(--mat-sys-on-surface-variant, #dae5e4) 70%, transparent); } .ds-field__input:hover { border-color: var(--mat-sys-on-surface, #e0e3e2); } .ds-field__input:focus { outline: none; border-color: var(--mat-sys-primary, #00dddd); box-shadow: inset 0 0 0 1px var(--mat-sys-primary, #00dddd); } .ds-field__input:focus-visible { outline: 2px solid var(--mat-sys-primary, #00dddd); outline-offset: 2px; }"
+    },
+    {
+      "name": "Raised Product Card",
+      "kind": "card",
+      "refersTo": "card-product",
+      "description": "The lit object of the Midnight Showcase: card charcoal, 12px radius, level-1 shadow.",
+      "html": "<article class='ds-card-product'><h3 class='ds-card-product__title'>Sac en toile</h3><div class='ds-card-product__media' aria-hidden='true'></div><p class='ds-card-product__body'>Description courte du produit, limitée à trois lignes.</p></article>",
+      "css": ".ds-card-product { display: flex; flex-direction: column; gap: 12px; box-sizing: border-box; width: 100%; max-width: 320px; padding: 16px; border-radius: 12px; background: var(--mat-sys-surface-container-low, #191c1c); color: var(--mat-sys-on-surface, #e0e3e2); box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12); font-family: Roboto, sans-serif; } .ds-card-product__title { margin: 0; font-size: 1.375rem; line-height: 1.75rem; font-weight: 400; letter-spacing: 0; } .ds-card-product__media { width: 112px; height: 112px; flex-shrink: 0; background: var(--mat-sys-surface-container-highest, #313635); } .ds-card-product__body { margin: 0; font-size: 0.875rem; line-height: 1.25rem; letter-spacing: 0.016rem; color: var(--mat-sys-on-surface, #e0e3e2); }"
+    },
+    {
+      "name": "Header Nav Link",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Bone-white navigation text with a cyan hover and a 300ms color transition.",
+      "html": "<nav class='ds-nav'><a class='ds-nav__link' href='#'>Mes produits</a><a class='ds-nav__link' href='#'>Mes médias</a></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 12px; font-family: Roboto, sans-serif; } .ds-nav__link { display: inline-flex; align-items: center; height: 40px; padding: 0 8px; border-radius: 9999px; color: var(--mat-sys-on-surface, #e0e3e2); font-size: 1rem; line-height: 1.5rem; letter-spacing: 0.031rem; font-weight: 400; text-decoration: none; transition: color 300ms cubic-bezier(0.2, 0, 0, 1), background-color 300ms cubic-bezier(0.2, 0, 0, 1); } .ds-nav__link:hover { color: var(--mat-sys-primary, #00dddd); background: color-mix(in srgb, var(--mat-sys-on-surface, #e0e3e2) 8%, transparent); } .ds-nav__link:focus-visible { outline: 2px solid var(--mat-sys-primary, #00dddd); outline-offset: 2px; }"
+    },
+    {
+      "name": "App Toolbar",
+      "kind": "nav",
+      "refersTo": "toolbar",
+      "description": "The 64px gallery-black shell with the Buy It wordmark and right-aligned actions.",
+      "html": "<header class='ds-toolbar'><span class='ds-toolbar__brand'>Buy It</span><span class='ds-toolbar__spacer'></span><a class='ds-toolbar__link' href='#'>Mes produits</a></header>",
+      "css": ".ds-toolbar { display: flex; align-items: center; gap: 12px; box-sizing: border-box; width: 100%; min-height: 64px; padding: 0 16px; background: var(--mat-sys-surface, #101414); color: var(--mat-sys-on-surface, #e0e3e2); font-family: Roboto, sans-serif; } .ds-toolbar__brand { font-size: 1.375rem; line-height: 1.75rem; font-weight: 400; letter-spacing: 0; } .ds-toolbar__spacer { flex: 1 1 auto; } .ds-toolbar__link { color: var(--mat-sys-on-surface, #e0e3e2); font-size: 1rem; line-height: 1.5rem; text-decoration: none; transition: color 300ms cubic-bezier(0.2, 0, 0, 1); } .ds-toolbar__link:hover { color: var(--mat-sys-primary, #00dddd); } .ds-toolbar__link:focus-visible { outline: 2px solid var(--mat-sys-primary, #00dddd); outline-offset: 2px; }"
+    },
+    {
+      "name": "Accent Section Link",
+      "kind": "custom",
+      "refersTo": "accent-link",
+      "description": "A headline-sized cyan navigation link used above the public product grid.",
+      "html": "<a class='ds-link-accent' href='#'>Tous les produits</a>",
+      "css": ".ds-link-accent { display: inline-block; color: var(--mat-sys-primary, #00dddd); font-family: Roboto, sans-serif; font-size: 1.5rem; line-height: 2rem; font-weight: 400; letter-spacing: 0; text-decoration: none; transition: text-decoration-color 300ms cubic-bezier(0.2, 0, 0, 1); } .ds-link-accent:hover { text-decoration: underline; text-underline-offset: 4px; } .ds-link-accent:focus-visible { outline: 2px solid var(--mat-sys-primary, #00dddd); outline-offset: 4px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Midnight Showcase",
+    "overview": "Buy-01 is a dark marketplace lit like a gallery after hours. The near-black teal-charcoal canvas recedes so product cards become the objects on display, and a single electric cyan signals where the visitor can act, focus, or has selected something. The atmosphere is precise and nocturnal: calm, legible, and retail-clear, never a neon gaming UI and never a generic admin panel. Warm ember orange is a rare note, not a second brand voice.\n\nThe world is built on Angular Material 3's token system, with Tailwind used only for layout and spacing. Surfaces are tonal rather than shadowed; actions are full pills while content containers are softly rounded slabs. Roboto does quiet utility work, and hierarchy comes from size and spacing rather than a second typeface. Because there is no logo or committed photography, the composition must earn its character from restraint, contrast, and the product content itself.",
+    "keyCharacteristics": [
+      "Dark-only teal-charcoal surface ramp with no pure-black backgrounds.",
+      "One saturated cool accent: electric cyan, reserved for action and focus.",
+      "Warm ember tertiary kept rare; errors use the separate coral error palette.",
+      "Raised product cards on tonal surfaces, with light level-1 shadows only.",
+      "Full-pill actions, 12px container corners, 4px field corners.",
+      "Roboto-only hierarchy; 400 for reading, 500 for labels and actions."
+    ],
+    "rules": [
+      { "name": "The One Signal Rule", "body": "Cyan appears only where the visitor can act, focus, or is selected. Never as decoration, never as a gradient, and preferably on less than 10% of a screen. Its rarity is the point.", "section": "colors" },
+      { "name": "The No Pure Black Rule", "body": "The darkest surface is Gallery Black; never use #000 as a page or card background. Pure black is reserved for shadow and scrim.", "section": "colors" },
+      { "name": "The Ember Reserve Rule", "body": "Orange is tertiary emphasis, not a warning system. Errors and destructive actions use Soft Coral and Deep Coral Ink.", "section": "colors" },
+      { "name": "The One Family Rule", "body": "Roboto only. Use 400 for body and titles, 500 for labels and actions, and 300 only for oversized display moments. Never import a second family to add personality.", "section": "typography" },
+      { "name": "The Quiet Hierarchy Rule", "body": "Step up in size or weight, not both at once. A card title is larger but not bolder; a button label is bolder but not larger.", "section": "typography" },
+      { "name": "The Four-Pixel Rhythm Rule", "body": "Every margin, padding, and gap lands on a 4px step. If a value is not on the rhythm, it is not part of the system.", "section": "layout" },
+      { "name": "The Tonal-First Rule", "body": "Surfaces separate by surface-container steps, not by shadow. If a shadow is doing the separating, the tonal step is wrong.", "section": "elevation" },
+      { "name": "The Pill-and-Slab Rule", "body": "Actions are pills; content containers are 12px slabs. Nothing in between, and never a square button.", "section": "shapes" }
+    ],
+    "dos": [
+      "**Do** use Material system variables (`var(--mat-sys-*)`) for every color, radius, and type decision.",
+      "**Do** keep Electric Cyan under roughly 10% of a screen; reserve it for actions, focus, and selected state.",
+      "**Do** use raised cards with Card Charcoal, a 12px radius, and the level-1 shadow for product tiles.",
+      "**Do** use outlined fields consistently: 56px tall, 4px radius, 1px Harbor Outline, 2px Electric Cyan on focus.",
+      "**Do** use full-pill buttons at 40px with 24px horizontal padding for filled actions.",
+      "**Do** separate hierarchy with surface-container steps before reaching for a shadow.",
+      "**Do** keep every spacing value on a 4px step.",
+      "**Do** give every icon-only control a French `aria-label` and a visible focus state."
+    ],
+    "donts": [
+      "**Don't** add raw Tailwind palette colors such as `cyan-600` to new UI; they split the accent source of truth.",
+      "**Don't** use Ember orange for errors, warnings, or destructive actions; use the error palette.",
+      "**Don't** use pure black or pure white as page, card, or text colors; use the neutral ramp.",
+      "**Don't** mix filled and outlined fields on the same screen.",
+      "**Don't** lift, scale, or animate cards on hover; use tonal or state-layer changes instead.",
+      "**Don't** put white text directly on Electric Cyan; use Deep Cyan Ink.",
+      "**Don't** square off buttons or add heavy, diffuse shadows.",
+      "**Don't** introduce a light theme or invert the surface ramp; the product commits to dark."
+    ]
+  }
+}
